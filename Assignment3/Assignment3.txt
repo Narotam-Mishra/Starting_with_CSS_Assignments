@@ -1,0 +1,5 @@
+# how to apply opacity :-
+
+# To use opacity with colors on web elements, we can use rgba() or hsla() methods that used to apply custom colors to the web elements. Here 'a' stands for 'alpha'. The value ranges from 0.1 to 0.9. The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
+
+# In the given assignment I have used opacity to password input fields and submit button using rgba() method and since the value of alpha i.e a is 0.2 and 0.3, hence it is slightly transparent in nature.

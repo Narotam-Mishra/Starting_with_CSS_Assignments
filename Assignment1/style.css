@@ -1,0 +1,7 @@
+.container{
+    border: 3px dashed black; 
+    text-align: center;
+}
+.container p{
+    font-size: 1.5em;
+}

@@ -1,0 +1,13 @@
+# When we target same elements with inline, internal & external style :-
+
+# Case 1 : In case of inline style
+# The CSS rules are directly written inside the starting tag using the style attribute. The style attribute includes a series of CSS property and value pairs. Each ‘ property: value ‘ pair is separated by a semicolon ( ; ). This attribute will override the style properties globally for any relevant style set. As inline style has greater order of preference than internal and external style, hence it will override both internal and external styles.
+
+# Case 2 : In case of internal style
+# Internal style sheets used to affect the document they are embedded in. Embedded style sheets are defined in the <head> section of an HTML document using the <style> tag. Internal style has second highest order of preference hence it will override external style.
+
+# Case 3 : In case of external style 
+# In this method we will use an external style file i.e "style.css" to style the page. This method can be useful when the CSS has to be applied to various web pages. An external style sheet holds all the style rules in a separate document that you can link from an HTML file on your site. External style has least order of preference.
+
+# Order of preference of CSS style -
+# inline > internal > external

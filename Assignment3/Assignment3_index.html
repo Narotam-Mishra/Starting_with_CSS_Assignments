@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 style="text-align: center">User Registration Form</h2>
+    <div class="form__container">
+      <form class="form">
+        <label class="form__label" for="name"> Name: </label>
+        <input
+          class="form__input"
+          id="name"
+          type="text"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label class="form__label" for="email"> Email: </label>
+        <input
+          class="form__input"
+          id="email"
+          type="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label class="form__label" for="password"> Password: </label>
+        <input
+          class="form__input"
+          id="password"
+          type="password"
+          minlength="4"
+          maxlength="14"
+          placeholder="Enter your password"
+          required
+        />
+
+        <button class="form__submit--enabled" type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

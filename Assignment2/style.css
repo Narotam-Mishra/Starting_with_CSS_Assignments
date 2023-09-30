@@ -1,0 +1,57 @@
+
+/* Using BEM (Block Element Modifier) naming convention for styling */
+
+/* using BEM to style 'block' */
+.container{
+    background-color: rgb(91,93,26);
+    border-radius: 7px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 0.8rem;
+}
+
+/* using BEM to style 'element' */
+.para__container{
+    padding: 16px;
+}
+
+.para__title{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.para__text{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightcoral;
+    text-align: center;
+}
+
+/* using BEM to style 'modifier' */
+
+.container__button--primary{
+    background-color: #fff;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+
+.container__button--secondary{
+    background-color: blueviolet;
+    cursor: pointer;
+    margin: 7px;
+    padding: 7px;
+}
