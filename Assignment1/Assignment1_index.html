@@ -10,6 +10,9 @@
 
     <!-- internal styling -->
     <style>
+      div{
+        height: 80vh;
+      }
         .container{
             border: 3px solid black; 
             color: maroon;
@@ -17,6 +20,14 @@
         }
         .container p{
             font-size: 1.5em;
+        }
+        .container img{
+          width: 40%;
+          margin-bottom: 30px;
+        }
+        #caption{
+          color: black;
+          text-align: center;
         }
     </style>
   </head>
@@ -32,6 +43,16 @@
     >
       <h2>Heading within div container element</h2>
       <p>Sample text in div container element</p>
+      <img style="border: 2px solid black;" src="https://images.unsplash.com/photo-1697807650304-907257330a3e?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D" alt="forest_house_image">
+      <span id="caption">Farm House in Forest</span>
+      <li style="list-style: none;" class="list-items">
+        <ul>Semantic Element</ul>
+        <ul>Nav</ul>
+        <ul>Header</ul>
+        <ul>Main</ul>
+        <ul>Sidebar</ul>
+        <ul>Footer</ul>
+      </li>
     </div>
   </body>
 </html>
